@@ -27,14 +27,26 @@ section {
   font-size: 20px;
 }
 
+.seccion-mascotas {
+  box-sizing: border-box;
+  display: inline-block;
+  border: 0;
+  width: 50%;
+  height: 75vh;
+  vertical-align: middle;
+}
+
 .gatos {
   background-color: lightblue;
-  height: 75vh;
-  width: 75vw;
+  text-align: center;
 }
 
 .perros {
   background-image: linear-gradient(yellow, brown);
+}
+
+.perros img {
+  width: 300px;
 }
 
 #foto-gato {
