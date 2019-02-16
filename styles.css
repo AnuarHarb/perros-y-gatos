@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 40px;
+}
+
+header {
+  background-color: black;
+  padding: 20px;
+  font-size: 16px;
+}
+
+header h1 {
+  color: white;
+  text-align:center;
+  font-size: 3em;
+}
+
+section {
+  padding: 20px 50px;
+}
+
+.intro p {
+  font-size: 20px;
+}
+
+.gatos {
+  background-color: lightblue;
+  height: 75vh;
+  width: 75vw;
+}
+
+.perros {
+  background-image: linear-gradient(yellow, brown);
+}
+
+#foto-gato {
+  border: 10px dotted blue;
+}
+
+footer {
+  background-color: black;
+  text-align:center;
+  padding: 40px 0;
+}
+
+
+.caja {
+  background-color: green;
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+}
