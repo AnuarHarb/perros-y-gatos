@@ -4,23 +4,41 @@
 }
 
 html {
-  font-size: 40px;
+  font-size: 16px;
+  font-family: verdana;
 }
 
 header {
   background-color: black;
   padding: 20px;
-  font-size: 16px;
 }
 
 header h1 {
   color: white;
   text-align:center;
-  font-size: 3em;
+  font-size: 2rm;
+}
+
+.cover {
+  background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url('img/portada.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+}
+
+.cover__text {
+  margin: 100px 0;
+  width: 500px;
+}
+
+.cover__text  p {
+  color: white;
+  font-family: arial;
+  font-size: 1.6em;
 }
 
 section {
-  padding: 20px 50px;
+  padding: 20px 80px;
 }
 
 .intro p {
@@ -32,25 +50,44 @@ section {
   display: inline-block;
   border: 0;
   width: 50%;
-  height: 75vh;
   vertical-align: middle;
+}
+
+.mascotas__photo,
+.mascotas__info {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.mascotas__photo img {
+  width: 100%;
+}
+
+.mascotas__info {
+  box-sizing: border-box;
+  text-align: center;
+  padding: 10px;
+}
+
+.mascotas__title {
+  color: black;
+  font-size: 2.5rem;
+  font-family: verdana;
+}
+
+.mascotas__text {
+  color: black;
+  text-align: justify;
+  font-size: 1.2rem;
 }
 
 .gatos {
   background-color: lightblue;
-  text-align: center;
 }
 
 .perros {
   background-image: linear-gradient(yellow, brown);
-}
-
-.perros img {
-  width: 300px;
-}
-
-#foto-gato {
-  border: 10px dotted blue;
 }
 
 footer {
